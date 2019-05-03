@@ -235,7 +235,7 @@ usuarioRoutes.post('/buscar/apellido', verificatoken, (req:Request, res:Response
 //===================================================================
 // paginacion
 //===================================================================
-usuarioRoutes.get ('/:pagina/:Npaginas',verificatoken, (req:Request, res:Response)=> {
+usuarioRoutes.get ('/:pagina/:Npaginas'/*,verificatoken*/, (req:Request, res:Response)=> {
     const admin = req.body.usuario
 
     
